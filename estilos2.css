@@ -1,0 +1,131 @@
+body{
+    background-color: #3EED3E;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+	background: #ff8000 ;
+	color: #FFFFFF;
+	text-align: center;
+    width: 1025px;
+    margin-left: 10%;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#menu ul li{
+    background-color: #ff8000;
+}
+#menu ul a{
+    display: block;
+    color: yellow;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#menu ul li{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li:hover{
+    background: green;
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ff8000;
+    padding: 0;
+}
+#menu ul ul li{
+    float: none;
+    width: 150px;
+}
+#menu ul ul a{
+    line-height: 120%;
+    padding: 10px 15px;
+}
+#menu ul li:hover > ul{
+    display: block;
+}
+.logo{
+    float: left;
+    margin-right: 60px;
+    width: 20%;
+    height: 15%;
+}
+.contenido{
+    background-color: #FFFFFF;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 1350px;
+    padding: 1%;
+}
+p{
+    height: 10%;
+}
+.chile{
+    float: left;
+    margin-right: 30px;
+    width: 200px;
+    transition: all 2s linear;
+}
+.chile:hover{
+    width: 300px;
+}
+.pollo{
+    float: left;
+    margin-right: 30px;
+    transition: .4s all;
+    width: 200px;
+    transition: all 7s;
+}
+.pollo:hover{
+    transform: rotate(360deg) scale(3);
+}
+.quinoa{
+    float: left;
+    margin-right: 30px;
+    width: 200px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-iteration-count: 3;
+}
+@keyframes example{
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+.papas{
+    float: left;
+    margin-right: 30px;
+    width: 200px;
+}
+.coca{
+    float: left;
+    margin-right: 30px;
+    width: 200px;
+    position: relative;
+    transition: all 1s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+}
+.coca:hover{
+    transform: perspective(600px) rotateY(-180deg) translateX(100%);
+}
+

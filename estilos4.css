@@ -1,0 +1,138 @@
+body{
+	font-family: 'Courier New';
+	background: #3EED3E;
+	margin: 0;
+	padding: 100px;
+	box-sizing: border-box;
+}
+
+header{
+	
+	background: #ff8000 ;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 1000px;
+	margin: auto;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+	font-size: 17px;
+}
+
+li{
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 20%;
+	line-height: 30px;
+}
+
+li a{
+	text-decoration: none;
+	color: yellow;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+li a:hover{
+	background: green;
+}
+
+.contenedor{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.bloque.parallax{
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.parallax.imagen-1{
+		background-image: url("oferta4.jpg");
+		}
+
+.form-register{
+	width: 400px;
+	background: #ff8000;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: "Courier New";
+	color: yellow;
+	box-shadow: 7px 13px 37px #000;
+}		
+
+.form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controls{
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px;
+	font-family: "Courier New";
+	font-size: 18px;
+}
+
+.form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.form--register a {
+	color: white;
+	text-decoration: none;
+}
+
+.form-register  a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.form-register .botons {
+	width: 100%;
+	background: black;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+
+
+}
+
+.parallax.imagen-2{
+		background-image: url("oferta3.jpg");
+	}
+
+.contenedor2{
+	max-width: 960px;
+	margin: 0 auto;
+}	
+
+.pie-de-pagina{
+	background: #ff8000;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height:	150px;
+
+}
